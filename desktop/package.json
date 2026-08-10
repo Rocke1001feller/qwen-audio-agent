@@ -1,0 +1,17 @@
+{
+  "name": "@qwen-audio-agent/desktop",
+  "private": true,
+  "version": "1.8.0",
+  "type": "module",
+  "main": "src/main.mjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "electron": "^43.2.0"
+  },
+  "dependencies": {
+    "ws": "8.21.1"
+  }
+}
